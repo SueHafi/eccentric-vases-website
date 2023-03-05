@@ -1,0 +1,29 @@
+/* Media Quieries at different break points */
+
+/* 1304 screen-sizes */
+/* How to calculate 1304 screen size to em 1304/16= 81.5 em */
+@media (max-width: 81.5em) {
+  .product-testimonial-section {
+    padding: 48px 70px;
+  }
+  .product-testimonial-section-layout-container {
+    column-gap: 40px;
+  }
+}
+
+/* 930/16 = 58.12  */
+50% = 8pixels = @media (max-width: 58.12em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-section {
+    padding: 40px;
+  }
+  .hero-header {
+    column-gap: 40px;
+  }
+}
+
+/* 702/16= 43.87  */
+@media (max-width: 43.87) {
+}
