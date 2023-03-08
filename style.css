@@ -344,6 +344,7 @@ li {
 .product-features {
   list-style: none;
   margin-bottom: 48px;
+  padding-left: 0;
 }
 
 .product-features-li-item {

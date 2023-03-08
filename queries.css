@@ -1,29 +1,127 @@
 /* Media Quieries at different break points */
+/* How to calculate 1304 screen size to em 1304/16= 81.5 em */
+
+/* 768 width screensizes */
+
+@media (max-width: 48em) {
+  .navbar-brand-name {
+    margin-bottom: 16px;
+  }
+
+  .search-bar-cart {
+    gap: 20px;
+  }
+
+  .hero-section {
+    padding: 0;
+  }
+
+  .hero-header {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 116px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .top-section {
+    margin-bottom: 48px;
+  }
+
+  .product-description-section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .product-description {
+    display: block;
+  }
+  .product-description-icon {
+    margin-bottom: 16px;
+  }
+  .product-description--margin-bottom {
+    margin-bottom: 48px;
+  }
+
+  .product-description-section {
+    margin-bottom: 124px;
+  }
+  .product-testimonial-section-layout-container {
+    display: block;
+  }
+
+  .product-testimonial-section {
+    padding: 48px 32px;
+  }
+
+  .product-testimonial-img {
+    margin-bottom: 48px;
+  }
+
+  .product-testimonial-heading {
+    margin-bottom: 32px;
+  }
+
+  .product-testimonial-text {
+    margin-bottom: 24px;
+  }
+
+  .product-section {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .product-items {
+    display: block;
+  }
+
+  .product-item {
+    margin-bottom: 64px;
+  }
+}
 
 /* 1304 screen-sizes */
-/* How to calculate 1304 screen size to em 1304/16= 81.5 em */
+
 @media (max-width: 81.5em) {
+  h3 {
+    margin-bottom: 24px;
+  }
+
+  .hero-header {
+    padding-left: 24px;
+    padding-right: 24px;
+    column-gap: 60px;
+  }
+
+  .product-description-section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .product-description {
+    gap: 40px;
+  }
+
   .product-testimonial-section {
-    padding: 48px 70px;
+    padding: 48px 24px;
   }
   .product-testimonial-section-layout-container {
     column-gap: 40px;
   }
-}
 
-/* 930/16 = 58.12  */
-50% = 8pixels = @media (max-width: 58.12em) {
-  html {
-    font-size: 50%;
+  .product-section {
+    padding-left: 24px;
+    padding-right: 24px;
   }
-  .hero-section {
-    padding: 40px;
-  }
-  .hero-header {
-    column-gap: 40px;
-  }
-}
 
-/* 702/16= 43.87  */
-@media (max-width: 43.87) {
+  .product-details {
+    padding: 24px 16px;
+  }
+
+  .product-price {
+    margin-bottom: 0;
+  }
+
+  .product-action-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
