@@ -55,6 +55,22 @@ li {
   margin: 0 0 12px 0;
 }
 
+a,
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #9ed4cf;
+}
+
+a:active {
+  color: #0d9488;
+  text-decoration: none;
+}
+
 .navbar-collapse-custom {
   justify-content: center;
 }
