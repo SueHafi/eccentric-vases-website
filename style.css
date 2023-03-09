@@ -9,11 +9,6 @@ FONT SIZE SYSTEM (px)
 /* MAIN COLOUR: #008832;
 GREY COLOUR: #343a40; */
 
-/* LINE HEIGHT:
-FOR BIG TEXT GO BELOW 1.5
-FOR SMALL TEXT GO ABOVE 1.5-2
-FOR ALL OTHER NORMAL TEXT KEEP BETWEEN 1.2-1.5 */
-
 *,
 *::before,
 *::after {
@@ -60,12 +55,9 @@ li {
   margin: 0 0 12px 0;
 }
 
-/* Bootstrap custom classes */
 .navbar-collapse-custom {
   justify-content: center;
 }
-
-/* Custom styles */
 
 .container {
   max-width: 900px;
@@ -252,6 +244,10 @@ li {
 
 .product-description--margin-bottom {
   margin-bottom: 48px;
+}
+
+.product-description--margin-bottom > :last-child {
+  margin-bottom: 0;
 }
 
 .product-description-icon-happy {
